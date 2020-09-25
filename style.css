@@ -1,0 +1,31 @@
+h1{
+    color:orange;
+    font-weight: italic; 
+    font-size:20pt;
+    font-family: helvetica;
+   }
+
+.intro{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+*{border:solid}
+
+.games{
+    display: flex;
+    background-color: thistle;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social{
+    display:flex;
+    justify-content: flex-end;
+}
+
+h2,p{
+    text-align: center;
+}
